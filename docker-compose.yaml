@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  smee-server:
+    image: registry.cn-sh-01.sensecore.cn/tsm_2024052501/smee.io:v1.0.0-24-g78bcc05
+    restart: always
+    ports:
+      - "33000:3000"
